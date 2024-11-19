@@ -327,12 +327,12 @@ a,
 
 
                     <div id="w-node-_36a002b0-2085-2c8f-826c-367d9e395771-01c4786c" class="home-options-item">
-                      <a href="https://dexscreener.com/"
+                      <a href="https://dexscreener.com/solana/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ"
                         class="home-options-link dexscreener-link w-inline-block"><img src="images/pxArt-5.png" alt=""
                           loading="eager" class="home-options-icon footer"></a>
                     </div>
                     <div id="w-node-_36a002b0-2085-2c8f-826c-367d9e395774-01c4786c" class="home-options-item">
-                      <a href="https://www.dextools.io/"
+                      <a href="https://www.dextools.io/app/en/solana/pair-explorer/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ?t=1732022349628"
                         class="home-options-link chart-link w-inline-block"><img src="images/pxArt-3.png" alt=""
                           loading="eager" class="home-options-icon footer"></a>
                     </div>
@@ -360,8 +360,8 @@ a,
                     <div class="button-group">
                       <div id="copy-to-clipboard" class="c2c-3 v2">
                         <div class="c2c-3-text">
-                          <p id="change-txt-3" class="c2c-txt">0x00000000000000000000</p>
-                          <p id="change-txt-3" class="c2c-txt tablet">0x00000000000000000000000</p>
+                          <p id="change-txt-3" class="c2c-txt">3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ</p>
+                          <p id="change-txt-3" class="c2c-txt tablet">3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ</p>
                         </div>
                       </div>
                     </div>
@@ -404,7 +404,7 @@ a,
                 </div>
               </div>
               <div class="margin-top margin-small center-content">
-                <a href="https://www.dextools.io/app/en/solana"
+                <a href="https://www.dextools.io/app/en/solana/pair-explorer/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ?t=1732022349628"
                   class="pixelated-button chart-link w-button">Chart</a>
               </div>
             </div>
@@ -471,12 +471,12 @@ a,
 
 
                     <div id="w-node-_1f2a6718-3d2f-f3f3-e334-c019d5a6d0b8-01c4786c" class="home-options-item">
-                      <a href="https://dexscreener.com/"
+                      <a href="https://dexscreener.com/solana/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ"
                         class="home-options-link dexscreener-link w-inline-block"><img src="images/pxArt-5.png" alt=""
                           loading="eager" class="home-options-icon footer"></a>
                     </div>
                     <div id="w-node-_1f2a6718-3d2f-f3f3-e334-c019d5a6d0bb-01c4786c" class="home-options-item">
-                      <a href="https://www.dextools.io/"
+                      <a href="https://www.dextools.io/app/en/solana/pair-explorer/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ?t=1732022349628"
                         class="home-options-link chart-link w-inline-block"><img src="images/pxArt-3.png" alt=""
                           loading="eager" class="home-options-icon footer"></a>
                     </div>
@@ -602,22 +602,22 @@ a,
     </div>
     <div class="links-script w-embed w-script">
       <script>
-        const contractAddress = "0x00000000000";
+        const contractAddress = "3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ";
         $(".telegram-link").attr("href", "https://t.me/djpepesol");
         $(".twitter-link").attr("href", "https://x.com/soldjpepe");
         $('.changetoca').text(contractAddress);
         $(".dexscreener-link").attr("href", `https://dexscreener.com/solana/${contractAddress}`);
-        $(".chart-link").attr("href", `https://dexscreener.com/solana/0x000000000`);
+        $(".chart-link").attr("href", `https://dexscreener.com/solana/3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ`);
         $(".buy-link").attr("href",
-          `https://Uniswap.io/swap/?inputCurrency=ETH&outputCurrency=${contractAddress}&fixed=in`);
-        $(".etherscan-link").attr("href", `https://ETHscan.io/token/${contractAddress}`);
+          `https://jup.ag/swap/SOL-{contractAddress}&fixed=in`);
+        $(".etherscan-link").attr("href", `https://solscan.io/account/${contractAddress}`);
         $("#copyThis-3").attr("value", `${contractAddress}`);
         $(".c2c-txt").text(`${contractAddress}`);
         $(".c2c-txt.tablet").text(`${contractAddress.substring(0,5)}.....${contractAddress.slice(-4)}`);
         $("#iframe-chart").attr("src",
-          `https://dexscreener.com/Ethereum/${contractAddress}?embed=1&theme=dark&trades=0&info=0`);
+          `https://dexscreener.com/solana/{contractAddress}?embed=1&theme=dark&trades=0&info=0`);
 
-        $("#uni-embed").attr("src", `https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x0000000);
+        $("#uni-embed").attr("src", `https://jup.ag/swap/SOL-3XGjXo6WFXenCoQUtr6Ly6jXA2RF9mVVgQkZ4k66TbJZ);
 $("#copy-to-clipboard").on("click", function(){
 navigator.clipboard.writeText(contractAddress); 
 $('.c2c-txt').text("CA Copied ✓ ");
